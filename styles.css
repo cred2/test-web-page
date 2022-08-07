@@ -1,0 +1,53 @@
+
+.head {
+    background-color: brown;
+    color:red;
+    border: 10px solid green;
+    padding: 6px;
+    margin: 6px 6px;
+    text-align:center;
+    
+}
+
+.one {
+    display: flex;
+    background-color: aquamarine;
+    border: 6px solid brown;
+    margin: 16px;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    height: 500px;
+    width: auto;
+    margin: 16px;
+    border: solid 6px black;
+    padding:4px;
+    align-content: stretch;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: red;
+   
+}
+
+.box>*:first-child {
+    background-color: blanchedalmond;
+    border: solid 6px blue;
+    width: 200px;
+    
+}
+
+.box>*:nth-child(2) {
+    background-color: blanchedalmond;
+    border: solid 6px blue;
+    width: 200px;
+}
+
+.box>*:nth-child(3) {
+    background-color: blanchedalmond;
+    border: solid 6px blue;
+    width: 200px;
+}
